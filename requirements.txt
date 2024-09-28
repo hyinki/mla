@@ -9,3 +9,5 @@ langid
 nltk
 spacy
 wordcloud
+textblob
+emoji
