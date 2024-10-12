@@ -4,7 +4,7 @@ import time
 from openpyxl import Workbook
 
 # Your ScraperAPI key
-API_KEY = ''
+API_KEY = 'e61ca48721ffbc2eb375f486f96e6d08'
 
 # Base URL of the page you want to scrape
 url = 'https://www.tripadvisor.com.sg/Airline_Review-d8729151-Reviews-Singapore-Airlines'
