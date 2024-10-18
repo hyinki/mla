@@ -6,7 +6,7 @@ import time
 import csv
 from threading import Lock
 
-# Your ScraperAPI key
+# ScraperAPI key
 SCRAPERAPI_KEY = ''
 
 # Base URL of the TripAdvisor review page
@@ -116,5 +116,5 @@ def scrape_multiple_pages_parallel(output_file, max_reviews_per_year=1000,max_pa
     print(f"Scraping completed! Data saved to {output_file}")
 
 # Run the parallel scraper
-output_file = 'tripadvisor_reviews_parallel.csv'
+output_file = 'tripadvisor_SIA_reviews_parallel.csv'
 scrape_multiple_pages_parallel(output_file, max_reviews_per_year=1000)
