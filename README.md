@@ -9,6 +9,10 @@ This project focuses on performing sentiment analysis on customer reviews of Sin
 -   Utilise a myriad of classification models to determine the best performing model.
 -   Use NLP techniques to analyze and classify sentiments as positive, neutral or negative.
 
+### Overview of Models:
+
+![Models](overview.png)
+
 ---
 
 ## Table of Contents
