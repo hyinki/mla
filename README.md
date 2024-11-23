@@ -6,8 +6,8 @@ This project focuses on performing sentiment analysis on customer reviews of Sin
 
 ### Objectives:
 
--   Utilise a myriad of classification models to determine the best performing model.
--   Use NLP techniques to analyze and classify sentiments as positive, neutral or negative.
+- Utilise a myriad of classification models to determine the best performing model.
+- Use NLP techniques to analyze and classify sentiments as positive, neutral or negative.
 
 ### Overview of Models:
 
@@ -57,24 +57,24 @@ To set up the environment, follow these steps:
 
 The requirements.txt file includes the following packages:
 
--   pandas
--   numpy
--   scipy
--   tqdm
--   matplotlib
--   seaborn
--   langdetect
--   langid
--   nltk
--   spacy
--   wordcloud
--   scikit-learn
--   tensorflow
--   torch
--   transformers
--   tokenizers
--   keras
--   gensim
+- pandas
+- numpy
+- scipy
+- tqdm
+- matplotlib
+- seaborn
+- langdetect
+- langid
+- nltk
+- spacy
+- wordcloud
+- scikit-learn
+- tensorflow
+- torch
+- transformers
+- tokenizers
+- keras
+- gensim
 
 ---
 
@@ -82,31 +82,31 @@ The requirements.txt file includes the following packages:
 
 The project uses a labelled dataset of 10,000 anonymised customer reviews on Singapore Airlines, which can be downloaded from Kaggle. This dataset provides the foundational data for training the models.
 
--   **Kaggle Dataset link:** [Kaggle: Singapore Airlines Reviews Dataset](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews)
+- **Kaggle Dataset link:** [Kaggle: Singapore Airlines Reviews Dataset](https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews)
 
 We also decided to scrape for more customer reviews of Singapore Airlines from TripAdvisor and Skytrax.
 
--   **TripAdvisor Link** https://www.tripadvisor.com.sg/Airline_Review-d8729151-Reviews-Singapore-Airlines
--   **Skytrax Link** https://www.airlinequality.com/airline-reviews/singapore-airlines/?sortby=post_date%3ADesc&pagesize=100
+- **TripAdvisor Link** https://www.tripadvisor.com.sg/Airline_Review-d8729151-Reviews-Singapore-Airlines
+- **Skytrax Link** https://www.airlinequality.com/airline-reviews/singapore-airlines/?sortby=post_date%3ADesc&pagesize=100
 
 Brief Description of `csv` files:
 
--   `singapore_airlines_reviews.csv`: from Kaggle dataset.
--   `singapore_airlines_reviews_tripadvisor.csv`: scraped from TripAdvisor.
--   `singapore_airlines_reviews_skytrax.csv`: scraped from Skytrax
--   `final_df.csv`: Combined all 3 previous csv files and performed basic preprocessing such as Tokenization and Porter Stemmer, this csv file is created from `preprocessing.ipynb`.
+- `singapore_airlines_reviews.csv`: from Kaggle dataset.
+- `singapore_airlines_reviews_tripadvisor.csv`: scraped from TripAdvisor.
+- `singapore_airlines_reviews_skytrax.csv`: scraped from Skytrax
+- `final_df.csv`: Combined all 3 previous csv files and performed basic preprocessing such as Tokenization and Porter Stemmer, this csv file is created from `preprocessing.ipynb` and subsequently used in `model_experiments`.
 
 ## Data Collection
 
 The structure of the dataset is as follows:
 
--   **`published_date`**: Date and time of review publication.
--   **`published_platform`**: Platform where the review was posted.
--   **`rating`**: Customer satisfaction rating, from 1 (lowest) to 5 (highest).
--   **`type`**: Specifies the content as a review.
--   **`text`**: Detailed customer feedback.
--   **`title`**: Summary of the review.
--   **`helpful_votes`**: Number of users finding the review helpful.
+- **`published_date`**: Date and time of review publication.
+- **`published_platform`**: Platform where the review was posted.
+- **`rating`**: Customer satisfaction rating, from 1 (lowest) to 5 (highest).
+- **`type`**: Specifies the content as a review.
+- **`text`**: Detailed customer feedback.
+- **`title`**: Summary of the review.
+- **`helpful_votes`**: Number of users finding the review helpful.
 
 ---
 
@@ -138,17 +138,17 @@ The structure of the dataset is as follows:
 
 This project was developed by:
 
--   Shaun Zhou
-    [GitHub](https://github.com/shaunzzhou)
--   Darius Ng
-    [GitHub](https://github.com/dariusnggg)
--   Hyin Ki
-    [GitHub](https://github.com/hyinki)
--   John Tan
-    [GitHub](https://github.com/JohnErnestTan)
--   May
-    [GitHub](https://github.com/May-mnaung)
--   Ritika Bajpai
-    [GitHub](https://github.com/ritikabaj)
+- Shaun Zhou
+  [GitHub](https://github.com/shaunzzhou)
+- Darius Ng
+  [GitHub](https://github.com/dariusnggg)
+- Hyin Ki
+  [GitHub](https://github.com/hyinki)
+- John Tan
+  [GitHub](https://github.com/JohnErnestTan)
+- May
+  [GitHub](https://github.com/May-mnaung)
+- Ritika Bajpai
+  [GitHub](https://github.com/ritikabaj)
 
 ---
